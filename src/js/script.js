@@ -1,18 +1,18 @@
-let seuVotoPara = document.querySelector('.d-1-1 span');
-let cargo = document.querySelector('.d-1-2 span');
-let descricao = document.querySelector('.d-1-4');
-let aviso = document.querySelector('.d-2');
-let lateral = document.querySelector('.d-1-right');
-let numeros = document.querySelector('.d-1-3');
+const seuVotoPara = document.querySelector('.tela-interna-superior span');
+const cargo = document.querySelector('.cargo span');
+const descricao = document.querySelector('.descricao-candidato');
+const aviso = document.querySelector('.aviso');
+const lateral = document.querySelector('.lateral-right');
+const numeros = document.querySelector('.caixa-numeros');
 
 let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
 let votos = [];
-let audio = new Audio('som/som.mp3');
+let audio = new Audio('../src/som/som.mp3');
 
 function comecarEtapa() {
-    let etapa = etapas[etapaAtual];
+    const etapa = etapas[etapaAtual];
 
     let numeroHtml = '';
     numero = '';
@@ -34,7 +34,7 @@ function comecarEtapa() {
     numeros.innerHTML = numeroHtml;
 }
 function atualizaInterface() {
-    let etapa =etapas[etapaAtual];
+    const etapa =etapas[etapaAtual];
     let candidato = etapa.candidatos.filter((item)=>{
         if(item.numero === numero) {
             return true;
@@ -67,7 +67,7 @@ function atualizaInterface() {
 }
 
 function clicou(n) {
-    let elNumero = document.querySelector('.numero.pisca');
+    const elNumero = document.querySelector('.numero.pisca');
     if(elNumero !== null) {
         elNumero.innerHTML = n;
         numero = `${numero}${n}`;

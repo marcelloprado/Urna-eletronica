@@ -5,41 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urna Eletônica</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
 </head>
 <body>
     <div class="urna">
         <div class="tela">
-            <div class="d-1">
-                <div class="d-1-left">
-                    <div class="d-1-1">
+            <div class="tela-interna">
+                <div class="tela-interna-esquerda">
+                    <div class="tela-interna-superior">
                         <span>SEU VOTO PARA</span>
                     </div>
-                    <div class="d-1-2">
-                        <span>VEREADOR</span>
+                    <div class="cargo">
+                        <span>Deputado</span>
                     </div>
-                    <div class="d-1-3">
+                    <div class="caixa-numeros">
                         <div class="numero pisca"></div>
                         <div class="numero"></div>
                     </div>
-                    <div class="d-1-4">
+                    <div class="descricao-candidato">
                         Nome: FULANO DE TAL<br/>
                         Partido: QQQ<br/>
-                        Vice-Prefeito: BELTRANO DE TAL<br/>
+                        Vice-Presidente: BELTRANO DE TAL<br/>
                     </div>
                 </div>
-                <div class="d-1-right">
-                    <div class="d-1-image">
-                        <img src="images/84.jpg" alt="" />
-                        Prefeito
+                <div class="lateral-right">
+                    <div class="lateral-image">
+                        <img src="/src/images/84.jpg" alt="" />
+                        Presidente
                     </div>
-                    <div class="d-1-image small">
-                        <img src="images/84.2.jpg" alt="" />
-                        Vice-Prefeito
+                    <div class="lateral-image small">
+                        <img src="/src/images/84.2.jpg" alt="" />
+                        Vice-Presidente
                     </div>
                 </div>
             </div>
-            <div class="d-2">
+            <div class="aviso">
                 Aperte a tecla:<br/>
                 CONFIRMA para CONFIRMAR este voto<br/>
                 CORRIGE para REINICIAR este voto.
@@ -70,16 +70,26 @@
                 <div class="teclado--botao botao--confirma" onclick="confirma()">CONFIRMA</div>
             </div>
         </div>
-        <div>Prefeito:<br/><br/>
+        
+        <!-- <div>Prefeito:<br/><br/>
             38111<br/>
             77222<br/><br/>
             Vereador:<br/><br/>
             99<br/>
             84
         </div>
+    </div> -->
+
+    <div class="cola-candidatos">
+        <h3>Deputados</h3>
+        <p>38111 Homer Simpsons</p>
+        <p>77222 Ned Flanders</p>
+        <h3>Presidente</h3>
+        <p>84 Diretor Skinner</p>
+        <p>99 Moe Szyslak</p>
     </div>
 
-    <script src="etapas.js"></script>
-    <script src="script.js"></script>
+    <script src="/src/js/etapas.js"></script>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>

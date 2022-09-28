@@ -1,6 +1,6 @@
 let etapas = [
     {
-        titulo: 'VEREADOR',
+        titulo: 'DEPUTADO',
         numeros: 5,
         candidatos: [
             {
@@ -8,21 +8,21 @@ let etapas = [
                 nome: 'Homer Simpson',
                 partido: 'Bar do Moe',
                 fotos:[
-                    {url:'38111.jpg', legenda: 'vereador'}
+                    {url:'../src/images/38111.jpg', legenda: 'Deputado'}
                 ]
             },
             {
                 numero: '77222',
-                nome: 'Bart Simpson',
-                partido: 'Springfield',
+                nome: 'Ned Flanders',
+                partido: 'Primeira igreja de Springfield',
                 fotos:[
-                    {url:'77222.jpg', legenda: 'Vereador'}
+                    {url:'../src/images/77222.jfif', legenda: 'Deputado'}
                 ]
             },
         ]
     },
     {
-        titulo: 'PREFEITO',
+        titulo: 'PRESIDENTE',
         numeros:2,
         candidatos: [
             {
@@ -31,8 +31,8 @@ let etapas = [
                 partido: 'Bar do Moe',
                 vice: 'Barney Gumble',
                 fotos:[
-                    {url:'99.jpg', legenda:'Prefeito'},
-                    {url:'99.2.jpg', legenda:'Vice-Prefeito', small:true}
+                    {url:'../src/images/99.jpg', legenda:'Presidente'},
+                    {url:'../src/images/99.2.jpg', legenda:'Vice-Presidente', small:true}
                 ]
             },
             {
@@ -41,8 +41,8 @@ let etapas = [
                 partido: 'Elementar de Springfield',
                 vice: 'Zelador Willie',
                 fotos:[
-                    {url:'84.jpg', legenda:'Prefeito'},
-                    {url:'84.2.jpg', legenda:'Vice-Prefeito', small:true}
+                    {url:'../src/images/84.jpg', legenda:'Presidente'},
+                    {url:'../src/images/84.2.jpg', legenda:'Vice-Presidente', small:true}
                 ]
             },
             

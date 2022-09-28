@@ -15,6 +15,7 @@ body {
     background-color:#dbd5c9;
     padding:30px;
     display:flex;
+    margin:50px;
 }
 .tela {
     width:500px;
@@ -65,32 +66,31 @@ body {
     height:50px;
 }
 
-.d-1 {
+.tela-interna {
     flex: 1;
     display:flex;
-    
 }
-.d-1-left {
+.tela-interna-esquerda {
     flex:1;
     display:flex;
     flex-direction:column;
     padding-left:30px;
-    
 }
-.d-1-1 {
+.tela-interna-superior {
     height:50px;
     display:flex;
     align-items:center;
 }
-.d-1-2 {
+.cargo {
     height:50px;
     display:flex;
     align-items:center;
     justify-content:center;
 }
-.d-1-3 {
+/* .d-1-3 {
     height:50px;
-}
+    background-color: blue;
+} */
 .numero {
     display:inline-block;
     width:30px;
@@ -99,40 +99,44 @@ body {
     text-align:center;
     line-height:40px;
     font-size:25px;
+    
 }
 .pisca {
     animation-name:pisca;
     animation-duration:1s;
     animation-iteration-count: infinite;
+    
 }
-.d-1-4 {
+.descricao-candidato {
     flex: 1;
     line-height:30px;
 }
-.d-1-right {
+.lateral-right {
     width:90px;
     display:flex;
     flex-direction:column;
     align-items:flex-end;
+    
 }
 .d-1-image {
     border: 1px solid #000;
     background-color:#FFF;
     text-align:center;
+    
 }
 .d-1-image img {
     width:80%;
-    
 }
 .d-1-image.small {
     width:90%;
     font-size:14px;
 }
-.d-2 {
+.aviso {
     height:50px;
     font-size:14px;
     border-top:2px solid #000;;
     padding-left:10px;
+   
 }
 
 .aviso--grande {
@@ -140,6 +144,7 @@ body {
     font-weight:bold;
     padding-top: 15px;
     text-align:center;
+    
 }
 .aviso--gigante {
     font-size:70px;
@@ -150,4 +155,8 @@ body {
     align-items:center;
     
 
+}
+
+.cola-candidatos {
+    margin-left: 10px;
 }
