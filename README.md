@@ -1,11 +1,17 @@
+ ![Logo](https://github.com/marcelloprado/portfolio/blob/main/src/imagens/favicon-32x32.png) Marcello Prado
+ 
  # URNA ELETRÔNICA
 
- Projeto de  uma Urna Eletrônica, Materiais de estudo em HTML5, CSS3 e Javascript. desenvolvido junto com a B7web, Bonieky Lacerda. inicio de 2021
- 
- - Refatorando após algum tempo, colocando em prática os ensinamentos do curso DevQuest dos Gêmeos DevEmDobro
+ Materiais de estudo em HTML 5, CSS 3 e JavaScript. desenvolvido junto com a B7web, Bonieky Lacerda. inicio de 2021.
+  
+ - Refatorando em setembro de 2022, colocando em prática os ensinamentos do curso DevQuest dos Gêmeos DevEmDobro
+ - Organização de pastas
  - Alterada todas as classes do html para melhor entendimento
  - modificando a estilização do css
- -indentando o código
+ - indentando o código
+ 
+ 
+ ⚠ Projeto NÃO responsivo 🚨
  
  ## Linguagens utilizadas
 
