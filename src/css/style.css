@@ -1,37 +1,16 @@
-@keyframes pisca {
-    0% {
-        opacity: 0.2;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0.2;
-    }
-}
-
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .urna {
-    background-color: #dbd5c9;
+    background-color: var(--urna);
     padding: 30px;
     display: flex;
     margin: 50px;
+    border-radius: 10px;
 }
 
 .tela {
     width: 500px;
     height: 320px;
     background: linear-gradient(to right, #E8E8E8, #C1C1C1);
-    border: 2px solid #555;
+    border: 2px solid var(--borda);
     display: flex;
     flex-direction: column;
 
@@ -39,7 +18,7 @@ body {
 
 .teclado {
     margin-left: 30px;
-    background-color: #403A3A;
+    background-color: var(--teclado)
 }
 
 .teclado--linha {
@@ -51,36 +30,42 @@ body {
 .teclado--botao {
     width: 70px;
     height: 40px;
-    background-color: #000;
-    color: #FFF;
+    background-color: var(--fundo-teclado);
+    color: var(--branco);
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
     cursor: pointer;
-    box-shadow: 3px 3px 0px #555;
+    box-shadow: 5px 5px 0px var(--sombra-btn);
+    border-radius: 5px;
 }
 
 .botao--branco {
-    background-color: #FFF;
-    color: #000;
+    background-color: var(--branco);
+    color: var(--texto);
     font-size: 15px;
+
+
 }
 
 .botao--corrige {
-    background-color: #F09B46;
-    color: #000;
+    background-color: var(--btn-corrige);
+    color: var(--preto);
     font-size: 15px;
+
 }
 
 .botao--confirma {
-    background-color: #48C079;
-    color: #000;
+    background-color: var(--btn-confirma);
+    color: var(--preto);
     font-size: 15px;
     width: 90px;
     height: 50px;
+
 }
+
 
 .tela-interna {
     flex: 1;
@@ -107,10 +92,6 @@ body {
     justify-content: center;
 }
 
-/* .d-1-3 {
-    height:50px;
-    background-color: blue;
-} */
 .numero {
     display: inline-block;
     width: 30px;
@@ -139,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
+    justify-content: center;
 }
 
 .d-1-image {
@@ -151,18 +132,18 @@ body {
 
 .d-1-image img {
     width: 80%;
+
 }
 
 .d-1-image.small {
-    width: 90%;
-    font-size: 14px;
+    width: 80%;
+    font-size: 12px;
 }
 
 .aviso {
     height: 50px;
     font-size: 14px;
     border-top: 2px solid #000;
-    ;
     padding-left: 10px;
 
 }
@@ -176,7 +157,7 @@ body {
 }
 
 .aviso--gigante {
-    font-size: 70px;
+    font-size: 150px;
     font-weight: bold;
     flex: 1;
     display: flex;
@@ -188,4 +169,5 @@ body {
 
 .cola-candidatos {
     margin-left: 10px;
+    line-height: 30px;
 }

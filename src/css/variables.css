@@ -1,0 +1,13 @@
+:root {
+
+    --fundo: rgb(172, 165, 165);
+    --urna: hsl(0, 10%, 100%);
+    --borda: hsl(0, 0%, 33%);
+    --teclado: hsl(0, 3%, 27%);
+    --fundo-teclado: hsl(0, 4%, 10%);
+    --branco: hsl(0, 0%, 100%);
+    --preto: hsl(0, 0%, 0%);
+    --sombra-btn: hsl(30, 10%, 20%);
+    --btn-corrige: hsl(17, 82%, 56%);
+    --btn-confirma: hsl(145, 62%, 39%);
+}
