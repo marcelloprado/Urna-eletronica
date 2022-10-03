@@ -2,7 +2,7 @@
  
  # URNA ELETRÔNICA
 
- Materiais de estudo em HTML 5, CSS 3 e JavaScript. desenvolvido junto com a B7web, Bonieky Lacerda. inicio de 2021.
+ Materiais de estudo em HTML 5, CSS 3 e JavaScript. desenvolvido junto com a B7web, Bonieky Lacerda. em 2021.
   
  - Refatorando em setembro de 2022, colocando em prática os ensinamentos do curso DevQuest dos Gêmeos DevEmDobro
  - Organização de pastas
