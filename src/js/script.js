@@ -9,7 +9,7 @@ let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
 let votos = [];
-let audio = new Audio('../src/som/som.mp3');
+let audio = new Audio('./src/som/som.mp3');
 
 function comecarEtapa() {
     const etapa = etapas[etapaAtual];
